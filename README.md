@@ -1,8 +1,4 @@
 <div align="center"><h1 align="center">Hi 👋, I'm Thomas</h1>
-<h3 align="center">A passionate developer from France</h3>
-
-- 🔭 I’m currently working on [pcmmod](https://pcmmod.com)
-
 <h3 >Connect with me:</h3>
 <p >
 <a href="https://www.linkedin.com/in/thomas-peyron-a62268198/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="thomas-peyron" height="30" width="40" /></a>
