@@ -1,0 +1,66 @@
+.section2-infos {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 100vh;
+    text-align: center;
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.section2-infos > h2 {
+    font: 4em sans-serif;
+}
+
+.section2-tweets {
+    flex-basis: 50%;
+    padding: 20px 0;
+}
+.tweet {
+    margin: 0 2%;
+    padding: 10px;
+    border-top: rgb(187, 187, 187) solid .3px;
+    border-bottom: rgb(187, 187, 187) solid .2px;
+    border-left: rgb(187, 187, 187) solid .7px;
+    border-right: rgb(187, 187, 187) solid .7px;
+}
+.tweet:hover {
+    background-color: rgb(223, 223, 223);
+}
+.tweet-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.tweet-head-image {
+    width: 64px;
+    height: 64px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 32px;
+    padding: 0;
+    margin: 6px;
+    flex-shrink: 0;
+}
+.tweet-head-text-line1 {
+    display: flex;
+    align-items: baseline;
+}
+.tweet-head-text-line1 > * {
+    margin: 4px;
+}
+.tweet-head-text-line2 > * {
+    margin: 4px;
+}
+.tweet-head-text-date {
+    color: grey;
+}
+.tweet-head-text-type {
+    color: rgb(63, 63, 63);
+    font-style: italic;
+}
+.tweet-content {
+    margin-left: 80px;
+}
